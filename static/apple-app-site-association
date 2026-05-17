@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "6D3RH85KQS.app.sleepclub.sleepsounds",
+                "paths": [ "/channel/*", "/user/*"]
+            }
+        ]
+    }
+}
