@@ -10,8 +10,6 @@ export default {
   },
 
   target: DEPLOY_TARGET,
-  // target: 'static', // 'server', 'static'
-  // ssr: true,
   dev: IS_DEV,
   debug: IS_DEV,
 
@@ -172,7 +170,6 @@ export default {
   ],
 
   modules: [
-    '@nuxtjs/router',
     '@nuxtjs/svg-sprite',
   ],
 

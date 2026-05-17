@@ -23,14 +23,12 @@
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
   },
   "dependencies": {
-    "@nuxtjs/router": "^1.7.0",
     "@nuxtjs/svg-sprite": "^0.5.2",
     "@types/lodash": "^4.14.191",
     "core-js": "^3.25.3",
     "lodash": "^4.17.21",
     "nuxt": "^2.15.8",
     "vue": "^2.7.10",
-    "vue-router": "^3.5.2",
     "vue-server-renderer": "^2.7.10",
     "vue-slider-component": "^3.2.14",
     "vue-template-compiler": "^2.7.10",

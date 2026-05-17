@@ -42,10 +42,6 @@ body {
 .bg-main {
   background-color: var(--background-main);
 }
-.bg-logo {
-  background: transparent url('~/assets/ui/panda.webp') no-repeat 0 50%;
-  background-size: contain;
-}
 
 // Text
 .text-default {
@@ -56,8 +52,7 @@ body {
 }
 
 // Links
-a,
-.fake-link {
+a {
   transition: color 0.15s linear;
   // color: var(--green-primary);
   outline: none;
@@ -75,14 +70,6 @@ a,
   &.disabled {
     color: var(--green-primary-50);
     pointer-events: none;
-  }
-}
-
-.dark-link {
-  color: var(--text-hover);
-
-  &:hover {
-    color: var(--text-darker);
   }
 }
 
@@ -119,18 +106,6 @@ h2 {
 }
 h3 {
   font-size: 23px;
-}
-
-// Clamp lines
-.clamp-1 {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.clamp-1 {
-  -webkit-line-clamp: 1;
-  line-clamp: 1;
 }
 
 // Pre
@@ -184,12 +159,6 @@ pre {
   ul + h2 {
     margin-top: 20px;
   }
-}
-
-.cards-list {
-  @apply gap-4;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .card-image {
@@ -374,43 +343,6 @@ pre {
   background: transparent url('~/assets/ui/logo.svg') no-repeat center / cover;
 }
 
-// Mixins
-// Scrollbar
-@mixin custom-scrollbar {
-  &::-webkit-scrollbar-track {
-    width: 10px;
-    background-color: transparent;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.2);
-  }
-
-  &::-webkit-scrollbar {
-    width: 4px;
-    height: 4px;
-    cursor: pointer;
-    -webkit-appearance: none;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 255, 255, 0.2);
-    cursor: pointer;
-    border-radius: 2px;
-    outline: none;
-    background-clip: border-box;
-  }
-
-  &::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(255, 255, 255, 0.4);
-  }
-}
-
-.custom-scrollbar {
-  @include custom-scrollbar;
-  overflow-x: auto;
-}
-
 // Media
 @media screen and (max-width: 1080px) {
   .section {
@@ -420,10 +352,6 @@ pre {
 
   .section {
     max-width: 100%;
-  }
-
-  .cards-list {
-    justify-content: center;
   }
 }
 
@@ -435,12 +363,5 @@ pre {
 
   .section {
     padding-top: var(--section-padding-mobile);
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .audio-icon-text {
-    font-size: 12px;
-    padding-left: 8px;
   }
 }
