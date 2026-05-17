@@ -863,6 +863,12 @@ export default Vue.extend({
 </style>
 
 <style lang="scss" scoped>
+#application-container {
+  background-image: url('~/assets/ui/panda-chibi.svg');
+  background-repeat: no-repeat;
+  background-position: 99% 99%;
+}
+
 .sound-mixer {
   display: flex;
   flex-wrap: wrap;

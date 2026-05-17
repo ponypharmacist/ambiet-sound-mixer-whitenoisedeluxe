@@ -104,7 +104,6 @@ assets/sprite/svg/ico_wind_surge.svg
 assets/sprite/svg/ico_winds.svg
 assets/sprite/svg/ico_wolf.svg
 assets/sprite/svg/notes.svg
-assets/sprite/svg/rain.svg
 assets/ui/logo.svg
 assets/ui/panda-chibi.svg
 components/au/Icon.vue
@@ -1433,40 +1432,6 @@ sw.*
 </svg>
 </file>
 
-<file path="assets/sprite/svg/rain.svg">
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg fill="currentColor" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	 viewBox="0 0 181.857 181.857" xml:space="preserve">
-<g>
-	<g>
-		<g>
-			<path d="M146.071,52.755c-1.882-25.887-24.296-46.392-51.577-46.392c-21.644,0-40.714,12.797-48.321,32.12
-				c-0.531-0.019-1.064-0.028-1.6-0.028C19.995,38.455,0,58.45,0,83.028S19.995,127.6,44.573,127.6c0.467,0,0.931-0.007,1.396-0.021
-				c0.127,0.014,0.256,0.021,0.387,0.021h99.843c0.258,0,0.512-0.03,0.757-0.085c19.619-1.313,34.901-17.61,34.901-37.356
-				C181.856,70.068,165.951,53.624,146.071,52.755z M146.003,120.429c-0.127,0.005-0.254,0.019-0.378,0.04H46.888
-				c-0.225-0.037-0.456-0.044-0.679-0.035c-0.542,0.025-1.088,0.035-1.637,0.035c-20.645,0-37.441-16.796-37.441-37.441
-				c0-20.645,16.796-37.441,37.441-37.441c1.245,0,2.478,0.061,3.691,0.179c1.654,0.186,3.211-0.844,3.735-2.43
-				c5.895-17.848,22.972-29.841,42.495-29.841c24.578,0,44.573,19.196,44.573,42.835c0,0.977,0.4,1.91,1.109,2.584
-				c0.707,0.674,1.637,1.031,2.636,0.977c0.531-0.026,1.064-0.04,1.604-0.04c16.713,0,30.309,13.596,30.309,30.309
-				C174.725,106.303,162.108,119.598,146.003,120.429z"/>
-			<path d="M57.892,136.703c-1.713-0.989-3.886-0.4-4.872,1.306l-18.554,32.136c-0.984,1.706-0.4,3.886,1.306,4.872
-				c0.562,0.324,1.175,0.477,1.779,0.477c1.233,0,2.43-0.639,3.092-1.783l18.553-32.136
-				C60.182,139.868,59.599,137.688,57.892,136.703z"/>
-			<path d="M79.287,136.703c-1.712-0.989-3.888-0.4-4.872,1.306l-18.553,32.136c-0.984,1.706-0.4,3.886,1.306,4.872
-				c0.562,0.324,1.175,0.477,1.779,0.477c1.233,0,2.43-0.639,3.092-1.783l18.553-32.136
-				C81.576,139.868,80.993,137.688,79.287,136.703z"/>
-			<path d="M100.682,136.703c-1.715-0.989-3.888-0.4-4.872,1.306l-18.553,32.136c-0.984,1.706-0.4,3.886,1.306,4.872
-				c0.562,0.324,1.175,0.477,1.779,0.477c1.233,0,2.43-0.639,3.092-1.783l18.553-32.136
-				C102.971,139.868,102.388,137.688,100.682,136.703z"/>
-			<path d="M128.369,159.693c-7.865,0-14.263-6.398-14.263-14.263h-7.132c0,11.798,9.597,21.395,21.395,21.395
-				c11.798,0,21.395-9.597,21.395-21.395h-7.132C142.632,153.294,136.234,159.693,128.369,159.693z"/>
-		</g>
-	</g>
-</g>
-</svg>
-</file>
-
 <file path="assets/ui/logo.svg">
 <svg width="97" height="40" viewBox="0 0 97 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M90.18 16.8159C89.3267 16.8159 88.6013 16.6559 88.004 16.3359C87.4173 16.0159 86.9693 15.5732 86.66 15.0079C86.3507 14.4426 86.196 13.7919 86.196 13.0559C86.196 12.3519 86.3773 11.7172 86.74 11.1519C87.1027 10.5866 87.588 10.1386 88.196 9.8079C88.804 9.46657 89.4813 9.2959 90.228 9.2959C91.2307 9.2959 92.052 9.58923 92.692 10.1759C93.3427 10.7519 93.764 11.5892 93.956 12.6879L88.516 14.4159L88.02 13.1999L91.956 11.8719L91.492 12.0799C91.4067 11.8026 91.252 11.5626 91.028 11.3599C90.8147 11.1466 90.4893 11.0399 90.052 11.0399C89.7213 11.0399 89.428 11.1199 89.172 11.2799C88.9267 11.4292 88.7347 11.6479 88.596 11.9359C88.468 12.2132 88.404 12.5439 88.404 12.9279C88.404 13.3652 88.484 13.7332 88.644 14.0319C88.804 14.3199 89.0227 14.5386 89.3 14.6879C89.5773 14.8372 89.8867 14.9119 90.228 14.9119C90.4733 14.9119 90.708 14.8692 90.932 14.7839C91.1667 14.6986 91.396 14.5866 91.62 14.4479L92.612 16.1119C92.2387 16.3252 91.8333 16.4959 91.396 16.6239C90.9693 16.7519 90.564 16.8159 90.18 16.8159Z" fill="white"/>
@@ -2380,10 +2345,6 @@ h3 {
   padding-right: var(--section-padding);
 }
 
-.section-title {
-  margin: 32px 0 20px;
-}
-
 .section.pb-50 {
   p + h2 {
     margin-top: 20px;
@@ -2728,93 +2689,10 @@ export default Vue.extend({
   name: 'index-page',
 
   data: () => ({
-    showPromoDrawer: false,
-    showCookiesDrawer: false,
     mixLimit: 8,
     volumeSettings: {},
 
     trackList: [],
-    isPlaying: false,
-    musicPlaylists: {
-      ambient_01: {
-        audio:
-          'https://static.sleepclub.app/music/ambient_01/warriors_rest.mp3',
-      },
-      ambient_piano_01: {
-        audio:
-          'https://static.sleepclub.app/music/ambient_piano_01/healing_piano.mp3',
-      },
-      guitar_01: {
-        audio:
-          'https://static.sleepclub.app/music/guitar_01/acoustic_sunset.mp3',
-      },
-      jazz_01: {
-        audio:
-          'https://static.sleepclub.app/music/jazz_01/these_romantic_feelings.mp3',
-      },
-      lofi_01: {
-        audio:
-          'https://static.sleepclub.app/music/lofi_01/evening_forest_2m24s.mp3',
-      },
-      classical_piano_01: {
-        audio:
-          'https://static.sleepclub.app/music/classical_piano_01/goldberg_variations__bwv_988___03___variatio_2_a_1_clav_.mp3',
-      },
-      baby_01: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/baby_01/tell_me_a_story.m4a',
-      },
-      ambient_02: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/ambient_02/ambient_flight.m4a',
-      },
-      meditation_01: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/meditation_01/meditation_mood.m4a',
-      },
-      relaxing_piano_01: {
-        audio:
-          'https://static.sleepclub.app/music/relaxing_piano_01/honor_the_fallen.mp3',
-      },
-      baby_03: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/baby_03/meditation_in_the_rain.m4a',
-      },
-      baby_02: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/baby_02/the_shining_of_the_moon.m4a',
-      },
-      baby_04: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/baby_04/falling_for_you.m4a',
-      },
-      piano_lullaby_01: {
-        audio:
-          'https://static.sleepclub.app/music/piano_lullaby_01/always_and_forever.mp3',
-      },
-      flute_01: {
-        audio:
-          'https://static.sleepclub.app/music/flute_01/enchanting_sonata.mp3',
-      },
-      harp_01: {
-        audio_m4a: 'https://static.sleepclub.app/music/harp_01/reiki_water.m4a',
-      },
-      yoga_01: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/yoga_01/qi_gong_healing.m4a',
-      },
-      yoga_02: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/yoga_02/forest_inhabitant.m4a',
-      },
-      celtic_01: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/celtic_01/the_scottish_sunrise.m4a',
-      },
-      lofi_02: {
-        audio: 'https://static.sleepclub.app/music/lofi_02/her_dreams.mp3',
-      },
-    },
 
     iconNames: {
       "icon_006_light_rain": "Лёгкий Дождь",
@@ -3496,15 +3374,6 @@ export default Vue.extend({
     },
   },
 
-  watch: {
-    $route(to, from) {
-      // console.log('🍌 Route change 🍌', from.name, '->', to.name);
-      this.isPlaying = false;
-      this.trackList = [];
-      window.scrollTo(0, 0);
-    },
-  },
-
   methods: {
     // Mixer UI
     onIconClick(sound) {
@@ -3611,6 +3480,12 @@ export default Vue.extend({
 </style>
 
 <style lang="scss" scoped>
+#application-container {
+  background-image: url('~/assets/ui/panda-chibi.svg');
+  background-repeat: no-repeat;
+  background-position: 99% 99%;
+}
+
 .sound-mixer {
   display: flex;
   flex-wrap: wrap;
