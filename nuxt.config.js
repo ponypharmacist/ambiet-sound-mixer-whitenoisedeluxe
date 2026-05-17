@@ -149,11 +149,6 @@ export default {
         href: '/favicon-152x152.png',
         sizes: '152x152',
       },
-      // <!-- Web application manifest -->
-      {
-        rel: 'manifest',
-        href: '/manifest.json',
-      },
     ],
   },
 
@@ -164,7 +159,6 @@ export default {
   components: true,
 
   buildModules: [
-    '@nuxtjs/google-fonts',
     '@nuxt/typescript-build',
     'nuxt-windicss',
   ],
@@ -174,14 +168,6 @@ export default {
   ],
 
   build: {},
-
-  googleFonts: {
-    download: true,
-    prefetch: true,
-    families: {
-      Roboto: [400, 600],
-    },
-  },
 
   loading: {
     color: 'purple',

@@ -19,7 +19,7 @@ export default defineConfig({
         xlm: '22px',
       },
       fontFamily: {
-        roboto: ['Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+        roboto: ['Helvetica', 'Arial', 'sans-serif'],
       },
     },
   },

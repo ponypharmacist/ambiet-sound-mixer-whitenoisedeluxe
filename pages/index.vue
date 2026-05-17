@@ -72,93 +72,10 @@ export default Vue.extend({
   name: 'index-page',
 
   data: () => ({
-    showPromoDrawer: false,
-    showCookiesDrawer: false,
     mixLimit: 8,
     volumeSettings: {},
 
     trackList: [],
-    isPlaying: false,
-    musicPlaylists: {
-      ambient_01: {
-        audio:
-          'https://static.sleepclub.app/music/ambient_01/warriors_rest.mp3',
-      },
-      ambient_piano_01: {
-        audio:
-          'https://static.sleepclub.app/music/ambient_piano_01/healing_piano.mp3',
-      },
-      guitar_01: {
-        audio:
-          'https://static.sleepclub.app/music/guitar_01/acoustic_sunset.mp3',
-      },
-      jazz_01: {
-        audio:
-          'https://static.sleepclub.app/music/jazz_01/these_romantic_feelings.mp3',
-      },
-      lofi_01: {
-        audio:
-          'https://static.sleepclub.app/music/lofi_01/evening_forest_2m24s.mp3',
-      },
-      classical_piano_01: {
-        audio:
-          'https://static.sleepclub.app/music/classical_piano_01/goldberg_variations__bwv_988___03___variatio_2_a_1_clav_.mp3',
-      },
-      baby_01: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/baby_01/tell_me_a_story.m4a',
-      },
-      ambient_02: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/ambient_02/ambient_flight.m4a',
-      },
-      meditation_01: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/meditation_01/meditation_mood.m4a',
-      },
-      relaxing_piano_01: {
-        audio:
-          'https://static.sleepclub.app/music/relaxing_piano_01/honor_the_fallen.mp3',
-      },
-      baby_03: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/baby_03/meditation_in_the_rain.m4a',
-      },
-      baby_02: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/baby_02/the_shining_of_the_moon.m4a',
-      },
-      baby_04: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/baby_04/falling_for_you.m4a',
-      },
-      piano_lullaby_01: {
-        audio:
-          'https://static.sleepclub.app/music/piano_lullaby_01/always_and_forever.mp3',
-      },
-      flute_01: {
-        audio:
-          'https://static.sleepclub.app/music/flute_01/enchanting_sonata.mp3',
-      },
-      harp_01: {
-        audio_m4a: 'https://static.sleepclub.app/music/harp_01/reiki_water.m4a',
-      },
-      yoga_01: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/yoga_01/qi_gong_healing.m4a',
-      },
-      yoga_02: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/yoga_02/forest_inhabitant.m4a',
-      },
-      celtic_01: {
-        audio_m4a:
-          'https://static.sleepclub.app/music/celtic_01/the_scottish_sunrise.m4a',
-      },
-      lofi_02: {
-        audio: 'https://static.sleepclub.app/music/lofi_02/her_dreams.mp3',
-      },
-    },
 
     iconNames: {
       "icon_006_light_rain": "Лёгкий Дождь",
@@ -236,17 +153,7 @@ export default Vue.extend({
       "icon_yoga_01": "Исцеление души",
       "icon_yoga_02": "Новое йога-расслабление",
       "icon_celtic_01": "Горный восход",
-      "icon_lofi_02": "lofi песни для лучшего сна",
-      "icon_binaural_0.5": "Бинауральный 0,5 Гц",
-      "icon_binaural_1": "Бинауральный 1 Гц",
-      "icon_binaural_1.5": "Бинауральный 1,5 Гц",
-      "icon_binaural_2": "Бинауральный 2 Гц",
-      "icon_binaural_2.5": "Бинауральный 2,5 Гц",
-      "icon_binaural_4": "Бинауральный 4 Гц",
-      "icon_binaural_5": "Бинауральный 5 Гц",
-      "icon_binaural_8": "Бинауральный 8 Гц",
-      "icon_binaural_10": "Бинауральный 10 Гц",
-      "icon_binaural_20": "Бинауральный 20 Гц"
+      "icon_lofi_02": "lofi песни для лучшего сна"
     },
 
     
@@ -838,77 +745,7 @@ export default Vue.extend({
         title_loc: 'music_title_yoga_02',
         bg: '#2F3F45',
         icon_color: '#6ABD4B',
-      },
-      {
-        id: 'binaural_0.5',
-        title_loc: 'binaural_title_0.5',
-        description_loc: 'binaural_description_0.5',
-        bg: '#2F3F45',
-        icon_color: '#6ABD4B',
-      },
-      {
-        id: 'binaural_1',
-        title_loc: 'binaural_title_1',
-        description_loc: 'binaural_description_1',
-        bg: '#2F3F45',
-        icon_color: '#6ABD4B',
-      },
-      {
-        id: 'binaural_1.5',
-        title_loc: 'binaural_title_1.5',
-        description_loc: 'binaural_description_1.5',
-        bg: '#2F3F45',
-        icon_color: '#6ABD4B',
-      },
-      {
-        id: 'binaural_2',
-        title_loc: 'binaural_title_2',
-        description_loc: 'binaural_description_2',
-        bg: '#2F3F45',
-        icon_color: '#6ABD4B',
-      },
-      {
-        id: 'binaural_2.5',
-        title_loc: 'binaural_title_2.5',
-        description_loc: 'binaural_description_2.5',
-        bg: '#2F3F45',
-        icon_color: '#6ABD4B',
-      },
-      {
-        id: 'binaural_4',
-        title_loc: 'binaural_title_4',
-        description_loc: 'binaural_description_4',
-        bg: '#2F3F45',
-        icon_color: '#6ABD4B',
-      },
-      {
-        id: 'binaural_5',
-        title_loc: 'binaural_title_5',
-        description_loc: 'binaural_description_5',
-        bg: '#2F3F45',
-        icon_color: '#6ABD4B',
-      },
-      {
-        id: 'binaural_8',
-        title_loc: 'binaural_title_8',
-        description_loc: 'binaural_description_8',
-        bg: '#2F3F45',
-        icon_color: '#6ABD4B',
-      },
-      {
-        id: 'binaural_10',
-        title_loc: 'binaural_title_10',
-        description_loc: 'binaural_description_10',
-        bg: '#2F3F45',
-        icon_color: '#6ABD4B',
-      },
-      {
-        id: 'binaural_20',
-        title_loc: 'binaural_title_20',
-        description_loc: 'binaural_description_20',
-        bg: '#2F3F45',
-        icon_color: '#6ABD4B',
-      },
+      }
     ],
   }),
 
@@ -920,78 +757,7 @@ export default Vue.extend({
     },
   },
 
-  watch: {
-    $route(to, from) {
-      // console.log('🍌 Route change 🍌', from.name, '->', to.name);
-      this.isPlaying = false;
-      this.trackList = [];
-      window.scrollTo(0, 0);
-    },
-  },
-
-  created() {
-    this.getAllCookies();
-  },
-
   methods: {
-    // Player methods
-    async mapTracklist(channel) {
-      if (!channel) return;
-
-      this.trackList = Object.entries(channel.media.audio)
-        .map((entry) =>
-          entry[1].map((sound) => ({
-            ...sound,
-            url: this.buildTrackUrl(entry[0], sound.sound_id),
-          }))
-        )
-        .flat(1);
-
-      // console.log('🎵 Mapping tracklist: ', this.trackList);
-      await this.$nextTick();
-    },
-
-    buildTrackUrl(category = 'sounds', id) {
-      let url = '';
-
-      if (category === 'sounds') {
-        url = `/sounds/m4a/${id}.m4a`;
-      } else if (category === 'music') {
-        url =
-          this.musicPlaylists[id]?.audio ||
-          this.musicPlaylists[id]?.audio_m4a ||
-          '';
-      } else if (category === 'binaural') {
-        url = `/binaural/m4a/${id}.m4a`;
-      }
-
-      return url;
-    },
-
-    togglePlay() {
-      if (this.isPlaying) {
-        this.isPlaying = false;
-
-        this.trackList.forEach((_) => {
-          const audio = document.getElementById(`audio${_.sound_id}`);
-
-          if (audio) audio.pause();
-        });
-      } else {
-        this.isPlaying = true;
-
-        this.trackList.forEach((_) => {
-          const audio = document.getElementById(`audio${_.sound_id}`);
-
-          if (audio) {
-            audio.volume = _.volume;
-            audio.load();
-            audio.play();
-          }
-        });
-      }
-    },
-
     // Mixer UI
     onIconClick(sound) {
       const limitReached = this.mixLimit <= this.trackList.length;
@@ -1042,7 +808,7 @@ export default Vue.extend({
 
     // Mixer Functions
     async pushSound({ sound_id, volume }) {
-      const url = this.buildTrackUrl('sounds', sound_id);
+      const url =  `/sounds/m4a/${sound_id}.m4a`;
 
       this.trackList.push({
         sound_id,
@@ -1074,40 +840,6 @@ export default Vue.extend({
       if (audio) {
         audio.volume = volume;
       }
-    },
-
-    // Cookies
-    getAllCookies() {
-      if (typeof document === 'undefined') return;
-
-      const promoIsOld =
-        parseInt(
-          (Date.now() - this.getCookie('scwPromoDate')) / 60 / 60 / 24 / 1000,
-          10
-        ) > 1;
-
-      this.showPromoDrawer = !this.getCookie('scwPromoDate') || promoIsOld;
-      this.showCookiesDrawer = !this.getCookie('scwCookieConsent');
-    },
-
-    getCookie(name) {
-      if (typeof document === 'undefined') return false;
-
-      const data = document.cookie?.split('; ').find((_) => _.includes(name));
-      const value = data?.split('=')[1] || false;
-
-      return value;
-    },
-
-    // Drawers
-    onConfirmConsent() {
-      document.cookie = 'scwCookieConsent=true';
-      this.getAllCookies();
-    },
-
-    onClosePromo() {
-      document.cookie = `scwPromoDate=${Date.now()}`;
-      this.getAllCookies();
     },
   },
 });
